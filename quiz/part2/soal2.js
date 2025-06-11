@@ -5,7 +5,7 @@
 
 // Hints
 // Saat kamu mendapatkan tiap huruf, untuk membentuk setiap kata kamu tinggal menggunakan simbol + untuk membentuk kata
-//  tersebut!
+//  tersebut!!
 
 let word = 'wow JavaScript is so cool';
 
