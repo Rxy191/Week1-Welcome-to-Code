@@ -5,10 +5,10 @@
 
 function konversiMenit(menit) {
     // you can only write your code here!
-    const jam = Math.floor(menit / 60);
-    const jamm = menit % 60;
-    const formattedMinutes = String(jam);
-    const formattedSeconds = String(jamm).padStart(2, '0');
+    let jam = Math.floor(menit / 60);
+    let jamm = menit % 60;
+    let formattedMinutes = String(jam);
+    let formattedSeconds = String(jamm).padStart(2, '0');
   return `${formattedMinutes}:${formattedSeconds}`;
 }
   
@@ -18,3 +18,4 @@ console.log(konversiMenit(124)); // 2:04
 console.log(konversiMenit(53)); // 0:53
 console.log(konversiMenit(88)); // 1:28
 console.log(konversiMenit(120)); // 2:00
+
